@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: "Stardos Stencil", system-ui;
+    color: darkcyan;
+}
+
+header{
+    border: solid 2px red;
+}
+
+header div{
+    border: solid 2px blue;
+}
+
+header .logo{
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    border: solid 2px green;
+}
+
+ul{
+    border: solid 2px yellow;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+li{
+    border: solid 2px brown;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 20px 0;
+}
