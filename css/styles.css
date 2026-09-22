@@ -1,3 +1,4 @@
+/* Mobile first.*/
 *{
     margin: 0;
 }
@@ -38,4 +39,33 @@ li{
     margin-top: 20px;
     font-size: 25px;
     padding: 20px 0;
+}
+li a:hover{
+    display: block;
+    transition: 1s; 
+    transform: scale(1.5);
+}
+/* Desktop*/
+/* Esto es un media query, se utiliza para hacer las paginas responsivas*/
+@media only screen and (min-width:992px){
+    header{
+        display: flex;
+        height: 25vh;
+    }
+    header .logo{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    header .caja_menu{
+        width: 75%;
+    }
+    .caja_menu ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
 }
